@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		6A53489A1F2EDC70007BC383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348991F2EDC70007BC383 /* main.m */; };
 		6A53489D1F2EDC70007BC383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A53489C1F2EDC70007BC383 /* AppDelegate.m */; };
-		6A5348A01F2EDC70007BC383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A53489F1F2EDC70007BC383 /* ViewController.m */; };
-		6A5348A31F2EDC70007BC383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5348A11F2EDC70007BC383 /* Main.storyboard */; };
 		6A5348A51F2EDC70007BC383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5348A41F2EDC70007BC383 /* Assets.xcassets */; };
 		6A5348A81F2EDC70007BC383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5348A61F2EDC70007BC383 /* LaunchScreen.storyboard */; };
 		6A5348B31F2EDC70007BC383 /* ZFTabbarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348B21F2EDC70007BC383 /* ZFTabbarViewControllerTests.m */; };
 		6A5348BE1F2EDC70007BC383 /* ZFTabbarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348BD1F2EDC70007BC383 /* ZFTabbarViewControllerUITests.m */; };
+		6A5348D01F2EDDC5007BC383 /* ZFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348CF1F2EDDC5007BC383 /* ZFTabBar.m */; };
+		6A5348D31F2EDE43007BC383 /* ZFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348D21F2EDE43007BC383 /* ZFTabBarController.m */; };
+		6A5348D71F2EFB37007BC383 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348D61F2EFB37007BC383 /* Dog.m */; };
+		6A5348DB1F2F0A4B007BC383 /* TwoTimesArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348DA1F2F0A4B007BC383 /* TwoTimesArray.m */; };
+		6A5348DF1F2F301B007BC383 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348DE1F2F301B007BC383 /* FirstViewController.m */; };
+		6A5348E21F2F3032007BC383 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348E11F2F3032007BC383 /* SecondViewController.m */; };
+		6A5348E51F2F3041007BC383 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348E41F2F3041007BC383 /* ThirdViewController.m */; };
+		6A5348E81F2F3051007BC383 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348E71F2F3051007BC383 /* ForthViewController.m */; };
+		6A5348ED1F2F34FC007BC383 /* ZFBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5348EC1F2F34FC007BC383 /* ZFBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +44,35 @@
 /* Begin PBXFileReference section */
 		6A5348951F2EDC70007BC383 /* ZFTabbarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTabbarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5348991F2EDC70007BC383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A53489B1F2EDC70007BC383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6A53489C1F2EDC70007BC383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A53489E1F2EDC70007BC383 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A53489F1F2EDC70007BC383 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6A5348A21F2EDC70007BC383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A5348A41F2EDC70007BC383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A53489B1F2EDC70007BC383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ZFTabbarViewController/AppDelegate.h; sourceTree = "<group>"; };
+		6A53489C1F2EDC70007BC383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ZFTabbarViewController/AppDelegate.m; sourceTree = "<group>"; };
+		6A5348A41F2EDC70007BC383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZFTabbarViewController/Assets.xcassets; sourceTree = "<group>"; };
 		6A5348A71F2EDC70007BC383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6A5348A91F2EDC70007BC383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5348A91F2EDC70007BC383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ZFTabbarViewController/Info.plist; sourceTree = "<group>"; };
 		6A5348AE1F2EDC70007BC383 /* ZFTabbarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTabbarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5348B21F2EDC70007BC383 /* ZFTabbarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTabbarViewControllerTests.m; sourceTree = "<group>"; };
 		6A5348B41F2EDC70007BC383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5348B91F2EDC70007BC383 /* ZFTabbarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTabbarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5348BD1F2EDC70007BC383 /* ZFTabbarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFTabbarViewControllerUITests.m; sourceTree = "<group>"; };
 		6A5348BF1F2EDC70007BC383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5348CE1F2EDDC5007BC383 /* ZFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabBar.h; sourceTree = "<group>"; };
+		6A5348CF1F2EDDC5007BC383 /* ZFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabBar.m; sourceTree = "<group>"; };
+		6A5348D11F2EDE43007BC383 /* ZFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabBarController.h; sourceTree = "<group>"; };
+		6A5348D21F2EDE43007BC383 /* ZFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabBarController.m; sourceTree = "<group>"; };
+		6A5348D51F2EFB37007BC383 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		6A5348D61F2EFB37007BC383 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		6A5348D91F2F0A4B007BC383 /* TwoTimesArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTimesArray.h; sourceTree = "<group>"; };
+		6A5348DA1F2F0A4B007BC383 /* TwoTimesArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoTimesArray.m; sourceTree = "<group>"; };
+		6A5348DD1F2F301B007BC383 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6A5348DE1F2F301B007BC383 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6A5348E01F2F3032007BC383 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6A5348E11F2F3032007BC383 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6A5348E31F2F3041007BC383 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		6A5348E41F2F3041007BC383 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		6A5348E61F2F3051007BC383 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		6A5348E71F2F3051007BC383 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		6A5348EB1F2F34FC007BC383 /* ZFBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBarButton.h; sourceTree = "<group>"; };
+		6A5348EC1F2F34FC007BC383 /* ZFBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +103,11 @@
 		6A53488C1F2EDC70007BC383 = {
 			isa = PBXGroup;
 			children = (
-				6A5348971F2EDC70007BC383 /* ZFTabbarViewController */,
+				6A5348DC1F2F2FF3007BC383 /* Controllers */,
+				6A5348D41F2EFB02007BC383 /* KVC测试 */,
+				6A5348981F2EDC70007BC383 /* Supporting Files */,
+				6A5348CB1F2EDCC8007BC383 /* Example */,
+				6A5348971F2EDC70007BC383 /* ZFTabBarViewController */,
 				6A5348B11F2EDC70007BC383 /* ZFTabbarViewControllerTests */,
 				6A5348BC1F2EDC70007BC383 /* ZFTabbarViewControllerUITests */,
 				6A5348961F2EDC70007BC383 /* Products */,
@@ -98,19 +124,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A5348971F2EDC70007BC383 /* ZFTabbarViewController */ = {
+		6A5348971F2EDC70007BC383 /* ZFTabBarViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6A53489B1F2EDC70007BC383 /* AppDelegate.h */,
-				6A53489C1F2EDC70007BC383 /* AppDelegate.m */,
-				6A53489E1F2EDC70007BC383 /* ViewController.h */,
-				6A53489F1F2EDC70007BC383 /* ViewController.m */,
-				6A5348A11F2EDC70007BC383 /* Main.storyboard */,
-				6A5348A41F2EDC70007BC383 /* Assets.xcassets */,
-				6A5348A61F2EDC70007BC383 /* LaunchScreen.storyboard */,
-				6A5348A91F2EDC70007BC383 /* Info.plist */,
-				6A5348981F2EDC70007BC383 /* Supporting Files */,
+				6A5348EA1F2F34C6007BC383 /* ZFBarButton */,
+				6A5348CD1F2EDD4C007BC383 /* ZFTabBarController */,
+				6A5348CC1F2EDD10007BC383 /* ZFTabBar */,
 			);
+			name = ZFTabBarViewController;
 			path = ZFTabbarViewController;
 			sourceTree = "<group>";
 		};
@@ -120,6 +141,7 @@
 				6A5348991F2EDC70007BC383 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ZFTabbarViewController;
 			sourceTree = "<group>";
 		};
 		6A5348B11F2EDC70007BC383 /* ZFTabbarViewControllerTests */ = {
@@ -138,6 +160,79 @@
 				6A5348BF1F2EDC70007BC383 /* Info.plist */,
 			);
 			path = ZFTabbarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		6A5348CB1F2EDCC8007BC383 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A53489B1F2EDC70007BC383 /* AppDelegate.h */,
+				6A53489C1F2EDC70007BC383 /* AppDelegate.m */,
+				6A5348A41F2EDC70007BC383 /* Assets.xcassets */,
+				6A5348A61F2EDC70007BC383 /* LaunchScreen.storyboard */,
+				6A5348A91F2EDC70007BC383 /* Info.plist */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		6A5348CC1F2EDD10007BC383 /* ZFTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348CE1F2EDDC5007BC383 /* ZFTabBar.h */,
+				6A5348CF1F2EDDC5007BC383 /* ZFTabBar.m */,
+			);
+			name = ZFTabBar;
+			sourceTree = "<group>";
+		};
+		6A5348CD1F2EDD4C007BC383 /* ZFTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348D11F2EDE43007BC383 /* ZFTabBarController.h */,
+				6A5348D21F2EDE43007BC383 /* ZFTabBarController.m */,
+			);
+			name = ZFTabBarController;
+			sourceTree = "<group>";
+		};
+		6A5348D41F2EFB02007BC383 /* KVC测试 */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348D81F2F0A15007BC383 /* ValueForKey(get方法的获取) */,
+				6A5348D51F2EFB37007BC383 /* Dog.h */,
+				6A5348D61F2EFB37007BC383 /* Dog.m */,
+			);
+			name = "KVC测试";
+			sourceTree = "<group>";
+		};
+		6A5348D81F2F0A15007BC383 /* ValueForKey(get方法的获取) */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348D91F2F0A4B007BC383 /* TwoTimesArray.h */,
+				6A5348DA1F2F0A4B007BC383 /* TwoTimesArray.m */,
+			);
+			name = "ValueForKey(get方法的获取)";
+			sourceTree = "<group>";
+		};
+		6A5348DC1F2F2FF3007BC383 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348DD1F2F301B007BC383 /* FirstViewController.h */,
+				6A5348DE1F2F301B007BC383 /* FirstViewController.m */,
+				6A5348E01F2F3032007BC383 /* SecondViewController.h */,
+				6A5348E11F2F3032007BC383 /* SecondViewController.m */,
+				6A5348E31F2F3041007BC383 /* ThirdViewController.h */,
+				6A5348E41F2F3041007BC383 /* ThirdViewController.m */,
+				6A5348E61F2F3051007BC383 /* ForthViewController.h */,
+				6A5348E71F2F3051007BC383 /* ForthViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6A5348EA1F2F34C6007BC383 /* ZFBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				6A5348EB1F2F34FC007BC383 /* ZFBarButton.h */,
+				6A5348EC1F2F34FC007BC383 /* ZFBarButton.m */,
+			);
+			name = ZFBarButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +343,6 @@
 			files = (
 				6A5348A81F2EDC70007BC383 /* LaunchScreen.storyboard in Resources */,
 				6A5348A51F2EDC70007BC383 /* Assets.xcassets in Resources */,
-				6A5348A31F2EDC70007BC383 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5348A01F2EDC70007BC383 /* ViewController.m in Sources */,
+				6A5348E21F2F3032007BC383 /* SecondViewController.m in Sources */,
+				6A5348D71F2EFB37007BC383 /* Dog.m in Sources */,
+				6A5348DB1F2F0A4B007BC383 /* TwoTimesArray.m in Sources */,
+				6A5348D01F2EDDC5007BC383 /* ZFTabBar.m in Sources */,
+				6A5348ED1F2F34FC007BC383 /* ZFBarButton.m in Sources */,
 				6A53489D1F2EDC70007BC383 /* AppDelegate.m in Sources */,
+				6A5348E51F2F3041007BC383 /* ThirdViewController.m in Sources */,
 				6A53489A1F2EDC70007BC383 /* main.m in Sources */,
+				6A5348D31F2EDE43007BC383 /* ZFTabBarController.m in Sources */,
+				6A5348DF1F2F301B007BC383 /* FirstViewController.m in Sources */,
+				6A5348E81F2F3051007BC383 /* ForthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +413,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6A5348A11F2EDC70007BC383 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A5348A21F2EDC70007BC383 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A5348A61F2EDC70007BC383 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6A5348A71F2EDC70007BC383 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ZFTabbarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,6 +602,7 @@
 				6A5348C41F2EDC70007BC383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A5348C51F2EDC70007BC383 /* Build configuration list for PBXNativeTarget "ZFTabbarViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +611,7 @@
 				6A5348C71F2EDC70007BC383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A5348C81F2EDC70007BC383 /* Build configuration list for PBXNativeTarget "ZFTabbarViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +620,7 @@
 				6A5348CA1F2EDC70007BC383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
